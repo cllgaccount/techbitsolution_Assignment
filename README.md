@@ -32,13 +32,13 @@ It uses a dataset of medical articles, processes them into vector embeddings, an
 ---
 
 ## Project Structure
-.
-├── medical_articles.json      # Dataset of abdominal pain articles
-├── vectorstore/               # FAISS index folder
-├── app.py                     # FastAPI backend
-├── chatbot.py                 # Streamlit chatbot interface
-├── requirements.txt           # Python dependencies
-└── README.md                  # Project documentation
+    .
+    ├── medical_articles.json      # Dataset of abdominal pain articles
+    ├── vectorstore/               # FAISS index folder
+    ├── app.py                     # FastAPI backend
+    ├── chatbot.py                 # Streamlit chatbot interface
+    ├── requirements.txt           # Python dependencies
+    └── README.md                  # Project documentation
 
 ---
 ## Prepare Dataset & Vector Store
@@ -48,10 +48,10 @@ It uses a dataset of medical articles, processes them into vector embeddings, an
 
 ---
 ## Start Backend
-uvicorn app:app --reload
+    uvicorn app:app --reload
 
 ---
 ## Start Chatbot UI
-streamlit run client.py
+    streamlit run client.py
 
 
