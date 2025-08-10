@@ -13,7 +13,7 @@ It uses a dataset of medical articles, processes them into vector embeddings, an
 - **Professional Disclaimers**  
   If asked about other medical issues, politely states that knowledge is limited.
 - **Vector Search with FAISS**  
-  Uses a FAISS vector store for fast semantic search.
+  Uses a FAISS vector store for fast Similarity search.
 - **Interactive Chatbot UI**  
   Built with Streamlit for a conversational experience.
 - **FastAPI Backend**  
