@@ -36,7 +36,7 @@ It uses a dataset of medical articles, processes them into vector embeddings, an
     ├── medical_articles.json      # Dataset of abdominal pain articles
     ├── vectorstore/               # FAISS index folder
     ├── app.py                     # FastAPI backend
-    ├── chatbot.py                 # Streamlit chatbot interface
+    ├── client.py                 # Streamlit chatbot interface
     ├── requirements.txt           # Python dependencies
     └── README.md                  # Project documentation
 
